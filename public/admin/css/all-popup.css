@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+*{
+   box-sizing: border-box;
+   font-family: 'Hanuman', serif;
+   margin: 0; 
+}
+
+ .box-invoice{
+    width: 325px;
+  
+    height: auto;
+    padding: 10px;
+ }
+ .box-invoice .invoice-in{
+    width: 100%;
+    height: auto; 
+ }
+ .box-invoice .invoice-in .header-invoice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 140px;
+  
+ }
+ .box-invoice .invoice-in .header-invoice .invoice-name{
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+ }
+ .box-invoice .invoice-in .header-invoice .invoice-data{
+   width: 100%;
+   height: 90%;
+   /* background-color: #B22222; */
+   display: flex;
+   justify-content: space-between;
+ }
+ .box-invoice .invoice-in .header-invoice .invoice-data .data-left{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    font-size: 13px;
+   justify-content: space-evenly;
+   flex-direction: column;
+    /* background-color: #B22222; */
+ }
+ .box-invoice .invoice-in .header-invoice .invoice-data .data-middle{
+    width: 2%;
+    height: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+ }
+ .box-invoice .invoice-in .header-invoice .invoice-data .data-right{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    font-size: 13px;
+    align-items: end;
+   justify-content: space-evenly;
+   flex-direction: column;
+ }
+ .box-invoice .invoice-in .header-invoice .invoice-data .data-right .waiting-no-data{
+    font-weight: bold;
+ }
+ .box-invoice .invoice-in .body-invoice table{
+    width: 100%;
+    border-collapse: collapse;
+ }
+ .box-invoice .invoice-in .body-invoice table tr th{
+    background-color: #d1d2d3;
+    font-size: 12px;
+ }
+ .box-invoice .invoice-in .body-invoice table tr td{
+    border-bottom: 1px solid #d1d2d3;
+    font-size: 12px;
+ }
+ .box-invoice .invoice-in .body-invoice table tr td:nth-child(2){
+  text-align: center;
+ }
+ .box-invoice .invoice-in .body-invoice table tr td:nth-child(3){
+    text-align: center;
+   }
+   .box-invoice .invoice-in .body-invoice table tr td:nth-child(4){
+    text-align: center;
+   }
+   .box-invoice .invoice-in .total-amount{
+    width: 100%;
+    height: 80px;
+    /* background-color: #B22222; */
+    display: flex;
+    justify-content: end;
+    padding: 3px 0px;
+    border-bottom: 1px solid #d1d2d3;
+   }
+   .box-invoice .invoice-in .total-amount .amount-in{
+    width: 70%;
+    height: 100%;
+   display: flex;
+   justify-content: space-between;
+   }
+   .box-invoice .invoice-in .total-amount .amount-in .in-left{
+    width: 50%;
+   font-size: 12px;
+    height: 100%;
+    /* background-color: #B22222; */
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    flex-direction: column;
+   }
+   .box-invoice .invoice-in .total-amount .amount-in .in-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: 12px;
+    align-items: end;
+    justify-content: space-evenly;
+    flex-direction: column;
+   }
+   .box-invoice .invoice-in .total-payment{
+    width: 100%;
+    height: 50px;
+    /* background-color: #B22222; */
+    display: flex;
+    justify-content: end;
+    
+    padding: 3px 0px;
+    border-bottom: 1px solid #d1d2d3;
+   }
+   .box-invoice .invoice-in .total-payment .payment-in{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .box-invoice .invoice-in .total-payment .in-left{
+    width: 65%;
+    height: 100%;
+    /* background-color: #B22222; */
+    display: flex;
+    font-size: 12px;
+    align-items: end;
+    justify-content: space-evenly;
+    flex-direction: column;
+   }
+   .box-invoice .invoice-in .total-payment .in-right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    font-size: 12px;
+    align-items: end;
+    justify-content: space-evenly;
+    flex-direction: column;
+   }
+   .reveive-box{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 12px;
+    border-bottom: 1px solid #d1d2d3;
+    /* background-color: #B22222; */
+   }
+   .reveive-box .reveive-khr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .reveive-box .reveive-khr .reveive-money-khr{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-right: 10px;
+   }
+   .reveive-box .reveive-khr .change-money-khr{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+   }
+   .reveive-box .reveive-usd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .reveive-box .reveive-usd .reveive-money-usd{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-right: 10px;
+   }
+   .reveive-box .reveive-usd .change-money-usd{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+   }
+   .exchange{
+    width: 100%;
+    height: auto;
+   display: flex;
+   justify-content: center;
+   font-size: 12px;
+   padding: 3px 0px;
+   align-items: center;
+   font-weight: bold;
+   border-bottom: 1px solid #d1d2d3;
+   }
+   .invoice-bottom{
+       width: 100%;
+       height: auto;
+       padding: 5px 0px;
+       font-size: 13px;
+      /* background-color: #B22222; */
+   }
+   .invoice-bottom .thz-kh{
+    text-align: center;
+   }
+   .invoice-bottom .thz-en{
+    text-align: center;
+   }
+   .shop-name{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #d1d2d3;
+   }
+   
